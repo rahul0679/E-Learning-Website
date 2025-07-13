@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Details</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Course: HTML Basics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Embedded Video -->
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="HTML Video" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Progress Tracking -->
+    <h3>Progress</h3>
+    <progress id="progressBar" value="30" max="100"></progress>
+    <p id="progressText">30% Completed</p>
+    
+    <button onclick="updateProgress()">Mark Lesson Complete</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
